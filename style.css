@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-nav a {
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+.hero-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+}
+
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.section-header {
+    font-weight: bold;
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+.img-fluid {
+    border-radius: 50%;
+    max-width: 220px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.form-control,
+.btn {
+    border-radius: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-custom:active {
+    transform: translateY(0);
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
+}
